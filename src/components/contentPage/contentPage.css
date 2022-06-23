@@ -1,0 +1,83 @@
+.content-page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../static/soham-kalghatkar-__9mWKhHqwA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.text-content {
+  position: relative;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-header {
+  font-family: "Montserrat", Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.main-header {
+  font-family: "Montserrat", Geneva, Verdana, sans-serif;
+  font-size: 108px;
+  color: #ffffff;
+}
+
+.content {
+  width: 500px;
+  font-family: "Montserrat", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.images1,
+.images2,
+.images3,
+.images4,
+.images5 {
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.images1 {
+  height: 40%;
+  left: 77%;
+  top: 5%;
+}
+.images2 {
+  height: 30%;
+  left: 50%;
+  top: 6%;
+}
+.images5 {
+  height: 70%;
+  left: 51%;
+  top: 25%;
+}
+.images4 {
+  height: 35%;
+  left: 35%;
+  top: 35%;
+}
+.images3 {
+  height: 50%;
+  left: 84%;
+  top: 36%;
+}
+
+.images1:hover,
+.images2:hover,
+.images3:hover,
+.images4:hover,
+.images5:hover {
+  transform: scale(1.1);
+}

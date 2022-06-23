@@ -1,0 +1,44 @@
+.footer-bar {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 30px;
+  padding: 0;
+  background: rgba(44, 44, 44, 0.349);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+
+.footer-option {
+  font-family: "Montserrat", Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  margin: 0 10px;
+  color: rgb(240, 240, 240);
+  transition: all 0.15s linear;
+}
+
+.footer-option:hover {
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
